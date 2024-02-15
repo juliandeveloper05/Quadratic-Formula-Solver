@@ -21,6 +21,6 @@ document
       let x2 = x2Numerador / x2Denominador;
 
       document.getElementById("result").innerHTML =
-        "x1 = " + x1.toFixed(0) + ", x2 = " + x2.toFixed(0);
+        "x1 = " + x1.toFixed(2) + ", x2 = " + x2.toFixed(2);
     }
   });
